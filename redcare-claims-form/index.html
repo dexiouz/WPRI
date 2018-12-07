@@ -5,42 +5,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles.css">
   <title>Redcare Claims form</title>
 </head>
 
 <body>
   <div class="rdc_wrapper">
-    <div class="rdc_container">
-      <div class="rdc_header">
+    <div class="rdc_container rdc_card">
+      <div class="rdc_header rdc_flex-center">
         <div class="rdc_icon">
           <img src="./assets/image008.jpg" alt="">
         </div>
         <div class="rdc_vr">
-
+          <hr>
         </div>
         <div class="rdc_chevron-icon">
           <img src="./assets/image001.png" alt="">
         </div>
       </div>
 
-      <div class="rdc_claimsForm">
+      <div class="rdc_claimsForm rdc_flex-center">
         <h1>CLAIMS FORM</h1>
       </div>
 
+    <div class="rdc_flex-column-center">
       <div class="rdc_general">
-        <p>
-          <strong> REDCARE ENROLLEE NO: </strong>
-          <span> RD/FR/56/18 </span>
-        </p>
-        <p>
-          <strong> NAME OF PROVIDER: </strong>
-          <span> Temitayo </span>
-        </p>
-        <p>
-          <strong> NAME OF ENROLLEE: </strong>
-          <span> Temitayo </span>
-        </p>
-        <div class="rdc_date">
+        <div class=" rdc_flex-end rdc_padding rdc_enrolleeNumber">
+          <p>
+            <strong> REDCARE ENROLLEE NO: </strong>
+            <span> RD/FR/56/18 </span>
+          </p>
+        </div>
+        <div class="rdc_flex-start rdc_padding rdc_providerName">
+          <p>
+            <strong> NAME OF PROVIDER: </strong>
+            <span> Temitayo </span>
+          </p>
+        </div>
+        <div class="rdc_flex-start rdc_padding rdc_enrolleeName">
+          <p>
+            <strong> NAME OF ENROLLEE: </strong>
+            <span> Temitayo </span>
+          </p>
+        </div>
+        <div class=" rdc_flex-between rdc_padding rdc_date">
           <p>
             <strong> DATE OF HOSPITAL ATTENDANCE: </strong>
             <span> 5TH FEBRUARY 2015 </span>
@@ -50,14 +58,107 @@
             <span> 4TH FEBRUARY 2015</span>
           </p>
         </div>
-        <p>
-          <strong>DIAGNOSIS: </strong>
-          <span> Lorem ipsum dolor sit amet,. Donec laoreet tincidunt sollicitudin erat. Proin sagittis turpis semper purus. Phasellus
-            ut consectetur mauris sodales. Donec vel ligula eu erat. Sed dui lectus, varius eget. Nam sed magna urna in.
-            Praesent eget eleifend libero at. Duis volutpat, dolor nec scelerisque. Phasellus in nisi diam ligula. </span>
-        </p>
+        <div class=" rdc_flex-start rdc_padding rdc_diagnosis">
+          <p>
+            <strong>DIAGNOSIS: </strong>
+            <span> Lorem ipsum dolor sit amet,. Donec laoreet tincidunt sollicitudin erat. Proin sagittis turpis semper purus. Phasellus
+              ut consectetur mauris sodales. Donec vel ligula eu erat. Sed dui lectus, varius eget. Nam sed magna urna in.
+              Praesent eget eleifend libero at. Duis volutpat, dolor nec scelerisque. Phasellus in nisi diam ligula. </span>
+          </p>
+        </div>
+      </div>
+      
+      <table class="rdc_table">
+        <tr>
+          <th width="35%">DRUGS</th>
+          <th width="35%">DOSAGE</th>
+          <th width="30%">COST</th>
+      
+        </tr>      
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+
+      <div class="rdc_flex-start rdc_padding rdc_card-investigation">
+          <p>
+            <strong> INVESTIGATION: </strong>
+            <span> Lorem ipsum dolor sit amet,. Donec laoreet tincidunt sollicitudin erat. Proin sagittis turpis semper purus. Phasellus
+                ut consectetur mauris sodales. Donec vel ligula eu erat. Sed dui lectus, varius eget. Nam sed magna urna in. </span>
+          </p>
+        </div>
 
       </div>
+          <div class=" rdc_flex-between rdc_padding rdc_card-investigation">
+              <p>
+                <strong> ENROLLEE SIGNATURE: </strong>
+                <span> lorem ipsum dolot sit </span>
+              </p>
+              <p>
+                <strong> PROVIDER SIGNATURE: </strong>
+                <span> lorem ipsum dolot sit</span>
+              </p>
+            </div>
+    
     </div>
   </div>
 

@@ -2,7 +2,100 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background: yellow
+}
 
 .rdc_wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem 0;
+}
+.rdc_container {
+  width: 70%;
+  background: rgb(247, 250, 246);
+  padding: 10px;
+}
+.rdc_card {
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+}
+.rdc_flex-center {
+  display: flex;
+  justify-content: center
+}
+/* header styles */
+.rdc_vr {
+  padding: 0 10px;
+}
+.rdc_header hr {
+  width: 1px; 
+  height: 60px; 
+  display: inline-block; 
+  background: black;
+}
+
+/* styling enrollee details card  */
+.rdc_general {
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+ box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+}
+/* styling title */
+.rdc_claimsForm {
+  margin: 1rem 0;
+}
+.rdc_claimsForm h1 {
+  background: red; 
+  padding: 6px 30px; 
+  color: white;
+}
+
+/* flex GLOBAL */
+.rdc_padding {
+  padding: 10px 10px
+}
+.rdc_flex-end  {
+  display: flex;
+  justify-content: end;
+}
+
+.rdc_flex-start {
+  display: flex;
+  justify-content: start;
+}
+
+.rdc_flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.rdc_flex-column-center {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center
+}
+
+/* table styles */
+.rdc_table {
+  width: 97%;
+  margin-top: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
   
+}
+.rdc_table, th, td {
+  border: 1px solid rgb(205, 205, 205);
+  border-collapse: collapse;
+}
+.rdc_table th, td {
+  padding: 5px;  
+  text-align: center 
+}
+
+.rdc_card-investigation {
+  width: 95%;
+  margin: 2rem auto;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
 }
