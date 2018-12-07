@@ -35,13 +35,15 @@
 
 .rde_writeup h2 {
   text-align: center;
-  color: grey
+  color: grey;
+  padding: 5px
 }
 
 .rde_providerDetails{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 30px
 }
 
 /* styling table */
