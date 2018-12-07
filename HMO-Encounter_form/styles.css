@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0
+}
+
+/* style wrapper */
+.hme_wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 3rem 0;
+}
+
+/* style container */
+.hme_container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* styling header */
+
+.hme_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px
+}
+.hme_header h3 {
+  text-align: center
+}
+/* STYLING TABLE */
+.hme_table {
+  width: 98%;
+  margin: 40px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+  
+}
+.hme_table, th, td {
+  border: 1px solid rgb(205, 205, 205);
+  border-collapse: collapse;
+}
+.hme_table th, td {
+  padding: 5px;  
+  text-align: center 
+}
