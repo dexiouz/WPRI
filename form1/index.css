@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin: 0
+}
+.hmo_wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2rem 0
+}
+.hmo_wrapper h1 {
+  text-align: center
+}
+.hmo_container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.hmo_box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.hmo_card {
+  width: 95%;
+  padding: 10px;
+  /* border: 1px solid gray; */
+  border-radius: 5px;
+ box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+}
+.hmo_container p {
+  margin-bottom: 10px
+}
+.hmo_patient-details_top h3 {
+  padding: 10px;
+}
+.hmo_box span{
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid rgba(140, 138, 138, 0.6)y;
+  background: transparent;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.hmo_table {
+  width: 96.5%;
+  margin-top: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+  
+}
+.hmo_table, th, td {
+  border: 1px solid rgb(205, 205, 205);
+  border-collapse: collapse;
+}
+.hmo_table th, td {
+  padding: 5px;  
+  text-align: center 
+}
+
+.doc {
+  border-bottom: 1px solid rgba(140, 138, 138, 0.6)
+}
+.hmo_marginLeft {
+  margin-left: 20px
+}
+
+
+
