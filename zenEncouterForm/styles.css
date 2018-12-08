@@ -4,4 +4,116 @@
   box-sizing: border-box;
 }
 
-.
+                      /* GLOBAL STYLES */
+.ze_marginTop {
+  margin-top: 30px
+}
+.ze_marginTop-header {
+  margin-top: 10px
+}
+.ze_padding {
+  padding: 10px 10px
+}
+.ze_underline{
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid rgba(140, 138, 138, 0.6);
+  background: transparent;
+  font-size: 16px;
+  padding: 4px;
+}
+/* FLEX GLOBAL */
+/* ============================================================= */     
+.ze_flex-center {
+  display: flex;
+  justify-content: center
+}
+
+.ze_flex-end  {
+  display: flex;
+  justify-content: end;
+}
+
+.ze_flex-start {
+  display: flex;
+  justify-content: start;
+}
+
+.ze_flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.ze_flex-column-center {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center
+}
+
+.ze_flex-column-end {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-end
+}
+
+/* ============================================================== */
+
+/* specific styles */
+.ze_wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+.ze_container {
+  width: 70%;
+  background: white;
+  padding: 10px;
+  margin: 2rem auto;
+}
+.ze_card {
+  padding: 30px 10px 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+}
+
+.ze_header h4 {
+  margin-bottom: 5px;
+  color: rgba(140, 138, 138, 0.6);
+
+}
+
+/* STYLING TABLE */
+.ze_table {
+  width: 98%;
+  margin: 40px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+  
+}
+.ze_table, th, td {
+  border: 1px solid rgb(205, 205, 205);
+  border-collapse: collapse;
+}
+.ze_table th, td {
+  padding: 5px;  
+  text-align: center 
+}
+
+/* style doctor name and signature */
+.ze_doctorSign {
+  margin: 20px
+}
+.ze_doctorSign h4 {
+  margin-top: 7px
+}
+
+/* styling footer */
+.ze_footer {
+  text-align: center;
+  font-size: 14px;
+  margin: 20px;
+  border: 1px solid black
+ 
+}
+.ze_footer p {
+  background: rgb(205, 205, 205);
+  padding: 10px
+}

@@ -6,25 +6,53 @@ body {
   background: yellow
 }
 
+/* GLOBAL FLEX */
+.rdc_flex-center {
+  display: flex;
+  justify-content: center
+}
+
+.rdc_flex-end  {
+  display: flex;
+  justify-content: end;
+}
+
+.rdc_flex-start {
+  display: flex;
+  justify-content: start;
+}
+
+.rdc_flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.rdc_flex-column-center {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center
+}
+
+.rdc_padding {
+  padding: 10px 10px
+}
+
+/* style WRAPPER */
 .rdc_wrapper {
   font-family: Arial, Helvetica, sans-serif;
   margin: 2rem 0;
 }
 .rdc_container {
   width: 70%;
-  /* background: rgb(247, 250, 246); */
   background: white;
   padding: 10px;
+  
 }
 .rdc_card {
   margin: 2rem auto;
   border-radius: 10px;
   box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
 }
-.rdc_flex-center {
-  display: flex;
-  justify-content: center
-}
+
 /* header styles */
 .rdc_vr {
   padding: 0 10px;
@@ -62,29 +90,7 @@ body {
   color: white;
 }
 
-/* flex GLOBAL */
-.rdc_padding {
-  padding: 10px 10px
-}
-.rdc_flex-end  {
-  display: flex;
-  justify-content: end;
-}
 
-.rdc_flex-start {
-  display: flex;
-  justify-content: start;
-}
-
-.rdc_flex-between {
-  display: flex;
-  justify-content: space-between;
-}
-.rdc_flex-column-center {
-  display: flex; 
-  flex-direction: column; 
-  align-items: center
-}
 
 /* table styles */
 .rdc_table {
