@@ -12,7 +12,8 @@ body {
 }
 .rdc_container {
   width: 70%;
-  background: rgb(247, 250, 246);
+  /* background: rgb(247, 250, 246); */
+  background: white;
   padding: 10px;
 }
 .rdc_card {
@@ -41,6 +42,15 @@ body {
   padding: 10px;
   border-radius: 5px;
  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+}
+
+.rdc_underline{
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid rgba(140, 138, 138, 0.6);
+  background: transparent;
+  font-size: 16px;
+  padding: 5px;
 }
 /* styling title */
 .rdc_claimsForm {

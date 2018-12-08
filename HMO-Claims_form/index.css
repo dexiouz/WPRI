@@ -23,7 +23,7 @@
 .hmo_box span{
   border: 0;
   outline: 0;
-  border-bottom: 1px solid rgba(140, 138, 138, 0.6)y;
+  border-bottom: 1px solid rgba(140, 138, 138, 0.6);
   background: transparent;
   font-size: 16px;
   padding: 5px;
