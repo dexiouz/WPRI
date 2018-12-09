@@ -1,0 +1,243 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.hp-wrapper{
+  width: 90%;
+  margin: 10px auto;
+  width: 90%;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+  padding: 1px 0px 1px 1px;
+}
+
+.hp-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 90%;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+  border-radius: 5px;
+  padding: 5px 0 0 10px;
+}
+
+.hp-header-container{
+  display: flex;
+}
+
+.hp-header-container h4{
+  color:green;
+  margin-top: 25%;
+  margin-left: -50%;
+  position: relative;
+
+}
+
+.claims_form{
+  margin-top: 7%;
+  /* margin-left: 50%; */
+}
+
+
+.hp_flex-between {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 5px auto;
+  border-radius: 5px;
+  
+}
+
+.span{
+  margin-top: 3%;
+  /* margin-left: 30%; */
+}
+
+.span input{
+  width: 10%;
+  
+}
+
+.hp-particulars{
+  width: 90%;
+  padding: 30px 10px 20px 10px;
+  border-radius: 10px;
+  margin: 15px auto;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+}
+
+.hp-underline{
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid rgba(140, 138, 138, 0.6);
+  background: transparent;
+  font-size: 16px;
+  /* padding: 4px; */
+}
+
+/* STYLING TABLE */
+.hp_table {
+  width: 90%;
+  margin: 15px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+  
+}
+.hp_table_info, th, td {
+  border: 1px solid rgb(200, 200, 200);
+  border-collapse: collapse;
+}
+.hp_table_info th, td {
+  padding: 5px;  
+  text-align: center 
+}
+
+.hp-outpatients{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 0.5rem
+}
+
+.hp_table_info {
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+  
+}
+
+.other td{
+  height: 300px;
+}
+
+.patient th{
+  text-align:unset;
+}
+
+.investigate{
+  margin-left: 0.5rem;
+}
+
+.input-div{
+  width: 90%;
+  margin: 5px auto;
+ 
+ 
+}
+
+.input{
+  width: 10%;
+  margin-left: 88%
+  
+}
+
+.enrollee{
+  width: 90%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.instruct{
+  width: 90%;
+  margin: 5px auto;
+}
+
+.image{
+  width: 30%;
+  height: 150px;
+}
+@media only screen and (max-width:400px){
+  .in_table{
+    width: 100%;
+    /* margin: 5px auto; */
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+    flex-direction: column;
+    font-size: 14px;
+    word-break: break-all;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .hp_flex-between{
+    width: 100%;
+    /* margin: 5px auto; */
+    
+    flex-direction: column;
+    font-size: 14px;
+    word-break: keep-all;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .hp-header{
+    width: 90%;
+    /* margin: 5px auto; */
+    
+    flex-direction: column;
+    font-size: 14px;
+    word-break: keep-all;
+  }
+}
+
+
+
+@media only screen and (max-width:400px){
+  .hp-header-container{
+    width: 90%;
+    /* margin: 5px auto; */
+    
+    /* flex-direction: column; */
+    font-size: 14px;
+    word-break: keep-all;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .hp-outpatients{
+    width: 90%;
+    font-size: 14px;
+    word-break: break-all;
+    font-variant-caps: all-petite-caps
+    /* padding: 2px 0px 0px 2px */
+  }
+}
+
+
+@media only screen and (max-width:600px){
+  .hp_flex-between{
+    width: 100%;
+    /* margin: 5px auto; */
+    
+    flex-direction: column;
+    font-size: 14px;
+    word-break: keep-all;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .hp-header{
+    width: 90%;
+    /* margin: 5px auto; */
+    
+    flex-direction: column;
+    font-size: 14px;
+    word-break: keep-all;
+  }
+}
+
+
+
+@media only screen and (max-width:600px){
+  .hp-header-container{
+    width: 90%;
+    /* margin: 5px auto; */
+    
+    /* flex-direction: column; */
+    font-size: 14px;
+    word-break: keep-all;
+  }
+}
+
+
