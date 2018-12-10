@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0
+}
+
+/* GLOBAL STYLES */
+.lc_card {
+  padding: 30px 10px 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+  /* border-bottom: 1px solid rgba(140, 138, 138, 0.6) */
+}
+.lc_marginTop {
+  margin-top: 30px
+}
+
+
+.lc_padding {
+  padding: 20px 10px
+}
+
+.lc_underline{
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid rgba(140, 138, 138, 0.6);
+  background: transparent;
+  font-size: 16px;
+  padding: 4px;
+}
+
+
+/* style general wrapper */
+.lc_wrapper {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 3rem 0;
+}
+
+/* style container */
+.lc_container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* style header */
+/* =========================== */
+.lc_header {
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* style banner column */
+.lc_banner {
+  width: 67%;
+  padding: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+}
+
+.lc_bannerText {
+  color: blue;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+}
+.lc_bannerText span{
+  color: red
+}
+
+.lc_subBannerText {
+  color: red;
+  margin-top: 9px
+}
+
+/* style address column */
+.lc_address {
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+  padding: 10px
+}
+
+.lc_address-text {
+  border-bottom: 1px solid rgb(218, 218, 218);
+  color: rgb(92, 88, 88);
+  padding: 1px
+}
+
+/* styling claims write up */
+.lc_claims {
+  text-align: center
+}
+
+
+/* SPECIFIC STYLES */
+.lc_signature {
+  margin: 20px 10px 0 10px
+}
+
+
+
+
+
+/* GLOBAL FLEX */
+.lc_flex-between {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+
+.lc_flex-around {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap
+}
+/* ====================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lc_flex-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap
+}
+
+.lc_flex-end  {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap
+}
+
+.lc_flex-start {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap
+}
+
+
+.lc_flex-column-center {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center
+}
+
+.lc_padding {
+  padding: 10px 10px
+}
