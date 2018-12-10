@@ -2,32 +2,50 @@
   padding: 0;
   margin: 0
 }
-
+/* ===================================== */
 /* GLOBAL STYLES */
 .lc_card {
+  margin-bottom: 20px;
   padding: 30px 10px 20px 10px;
   border-radius: 10px;
   box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
-  /* border-bottom: 1px solid rgba(140, 138, 138, 0.6) */
 }
 .lc_marginTop {
   margin-top: 30px
 }
 
-
 .lc_padding {
-  padding: 20px 10px
+  padding:10px 10px
 }
-
 .lc_underline{
   border: 0;
   outline: 0;
-  border-bottom: 1px solid rgba(140, 138, 138, 0.6);
+  border-bottom: 2px solid rgba(140, 138, 138, 0.6);
   background: transparent;
   font-size: 16px;
   padding: 4px;
 }
 
+/* GLOBAL FLEX */
+.lc_flex-between {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+
+.lc_flex-around {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap
+}
+
+.lc_flex-start {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap
+}
+
+/* ====================================== */
 
 /* style general wrapper */
 .lc_wrapper {
@@ -97,81 +115,65 @@
 .lc_signature {
   margin: 20px 10px 0 10px
 }
-
-
-
-
-
-/* GLOBAL FLEX */
-.lc_flex-between {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap
+.lc_acknowledge-span {
+  font-weight: normal
+}
+.lc_comfirmation-text {
+  margin-bottom: 10px;
 }
 
-.lc_flex-around {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap
+/* STYLING TABLE */
+.lc_table {
+  margin-bottom: 20px;
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+  
 }
-/* ====================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.lc_flex-center {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap
+.lc_table, th, td {
+  border: 1px solid rgb(205, 205, 205);
+  border-collapse: collapse;
 }
-
-.lc_flex-end  {
-  display: flex;
-  justify-content: end;
-  flex-wrap: wrap
-}
-
-.lc_flex-start {
-  display: flex;
-  justify-content: start;
-  flex-wrap: wrap
+.lc_table th, td {
+  padding: 5px;  
+  text-align: center 
 }
 
 
-.lc_flex-column-center {
-  display: flex; 
-  flex-direction: column; 
-  align-items: center
-}
 
-.lc_padding {
-  padding: 10px 10px
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
