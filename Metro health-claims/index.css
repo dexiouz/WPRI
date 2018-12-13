@@ -1,0 +1,139 @@
+.mh_header{
+  width: 90%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+  color:  rgb(48, 48, 158);
+  
+}
+.mh_logo{
+  width: 90%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+  color:  rgb(48, 48, 158);
+  
+}
+
+.mh_header img{
+  position: relative;
+ margin-top: -6rem;
+}
+
+.mh_details_wraper{
+  width: 90%;
+    margin: 15px auto;
+    padding: 10px 20px 20px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+}
+.mh_wrapper p strong{
+  color:  rgb(48, 48, 158);
+}
+
+.mh_details{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mh_details span{
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid rgba(140, 138, 138, 0.6);
+  background: transparent;
+  font-size: 16px;
+  padding: 4px;
+}
+
+
+.mh_table{
+    width: 90%;
+    margin: 15px auto;
+    padding: 10px 20px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(140, 138, 138, 0.6);
+    
+}
+
+
+.mh_table table{
+  width: 100%;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid rgb(9, 9, 83);
+  border-collapse: collapse;
+}
+
+.mh_table th, td{
+  /* width: 90%; */
+  border: 1px solid rgb(9, 9, 83);
+  border-collapse: collapse;
+  padding: 5px;  
+  color:  rgb(48, 48, 158);
+  text-align: center
+}
+
+.mh_office{
+  margin-left: 4%;
+}
+
+
+
+@media only screen and (max-width:400px){
+  .mh_wrapper{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+  }
+}
+
+@media only screen and (max-width:400px){
+  .mh_header{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+@media only screen and (max-width:400px){
+  .mh_logo{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -1rem;
+    
+  }
+}
+
+@media only screen and (max-width:400px){
+  .mh_logo img{
+   margin-left: -5rem;
+    
+  }
+}
+
+@media only screen and (max-width:400px){
+  .mh_details_wraper{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .mh_details{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .mh_table tr{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
